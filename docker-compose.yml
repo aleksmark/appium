@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: ./docker
+    container_name: "appium"
+    ports:
+      - "4723:4723"
+    privileged: true
