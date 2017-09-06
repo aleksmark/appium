@@ -53,9 +53,3 @@ Run the tests
 ```
 $ cd php-client && vendor/bin/phpunit Test
 ```
-
-
-
-
-
-$ docker run -d --privileged -p 4723:4723 --name appium alphafounders/appium:1.6.5
